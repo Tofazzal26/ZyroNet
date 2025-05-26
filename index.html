@@ -13,7 +13,6 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
-
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
@@ -89,7 +88,38 @@
           </aside>
         </div>
         <main class="flex-1">
-          <div></div>
+          <div class="border-[#e5e7e9] border-[1px]">
+            <div class="relative">
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="2"
+                placeholder="What's on your mind?"
+                class="outline-none px-12 py-6 w-full"
+              ></textarea>
+              <i
+                class="fas fa-link absolute left-[20px] rotate-[-20deg] top-[30px]"
+                style="color: #a9adb3"
+              ></i>
+            </div>
+            <div class="px-3 pb-6">
+              <div>
+                <label class="text-gray-500 px-3">Select Photo</label>
+                <input
+                  type="file"
+                  class="block text-sm text-gray-500 file:hidden mt-2 w-full px-3 py-3 border-[1px] border-dotted"
+                />
+              </div>
+              <div class="text-end mt-4">
+                <button
+                  class="bg-[#4caf50] px-4 text-white font-semibold text-sm py-2 rounded-full"
+                >
+                  Post <i class="fas fa-paper-plane" style="color: white"></i>
+                </button>
+              </div>
+            </div>
+          </div>
         </main>
         <div class="w-[330px] bg-[#f9fbfc] h-[90vh] p-6 headerShadow">
           <aside>
