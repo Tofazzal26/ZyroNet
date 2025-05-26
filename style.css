@@ -4,3 +4,15 @@
 * {
   font-family: "Poppins", sans-serif;
 }
+.icon {
+  color: #a9adb3;
+  font-size: 20px;
+}
+.rightBambo::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 46px;
+  background-color: #e2e4e5;
+  left: -17px;
+}

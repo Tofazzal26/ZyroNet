@@ -9,6 +9,11 @@
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
@@ -32,5 +37,66 @@
         </div>
       </div>
     </header>
+
+    <section class="container mx-auto">
+      <div class="flex justify-between">
+        <aside class="w-[330px] p-6 bg-[#f9fbfc] h-[90vh] headerShadow">
+          <div class="font-semibold space-y-8">
+            <h2 class="flex items-center gap-2 text-sm">
+              <i class="fas fa-home icon"></i> Home
+            </h2>
+            <h2 class="flex items-center gap-2 text-sm">
+              <i class="fas fa-envelope icon"></i> Messages
+            </h2>
+            <h2 class="flex items-center gap-2 text-sm">
+              <i class="fas fa-bell icon"></i> Notification
+            </h2>
+            <h2 class="flex items-center gap-2 text-sm">
+              <i class="fas fa-user icon"></i> Profile
+            </h2>
+          </div>
+        </aside>
+        <main class="flex-1">
+          <h2>Main</h2>
+        </main>
+        <aside class="w-[330px] bg-[#f9fbfc] h-[90vh] p-6 headerShadow">
+          <div class="text-center">
+            <div class="flex justify-center items-center">
+              <img src="/profile.png" alt="" class="w-[80px]" />
+            </div>
+            <div>
+              <h2 class="font-semibold text-lg mt-4">Tofazzal Hossain</h2>
+              <h2>@tofazzal27</h2>
+              <h2 class="text-gray-600">Dhaka, Gazipur</h2>
+            </div>
+          </div>
+          <div class="flex items-center justify-center gap-8 mt-8">
+            <div class="flex items-center flex-col">
+              <h2 class="font-semibold">332</h2>
+              <h2>Posts</h2>
+            </div>
+            <div class="flex items-center flex-col rightBambo relative">
+              <h2 class="font-semibold">27.5K</h2>
+              <h2>Followers</h2>
+            </div>
+            <div class="flex items-center flex-col rightBambo relative">
+              <h2 class="font-semibold">279</h2>
+              <h2>Following</h2>
+            </div>
+          </div>
+          <div>
+            <h2 class="font-semibold mt-8">About Me</h2>
+            <p class="text-sm mt-2 text-gray-600">
+              I’m a passionate Frontend Developer skilled in HTML, CSS,
+              JavaScript, React.js, and Tailwind CSS. I focus on building
+              responsive, clean, and user-friendly web interfaces.
+            </p>
+            <button class="text-sm text-[#4caf50] mt-2 font-semibold">
+              Read More
+            </button>
+          </div>
+        </aside>
+      </div>
+    </section>
   </body>
 </html>
